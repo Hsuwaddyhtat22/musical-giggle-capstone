@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.icon-nav {
+    display: flex;
+    align-items: center;
+    background-color: #272a31;
+    height: 3rem;
+}
+
+.for-icon-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 60em;
+}
+
+.for-icon-nav li {
+    margin-right: 20px;
+}
+
+.for-icon-nav li a {
+    text-decoration: none;
+    color: #fffefe;
+}
+
+.music-logo {
+    width: 120px;
+}
+
+.container {
+    background-image: url(/images/mainpage-bg.jpeg);
+}
+
+.lower-nav {
+    display: flex;
+    align-items: center;
+    background-color: #e6e8eb;
+    height: 4rem;
+}
+
+.for-desk-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 22em;
+}
+
+.for-desk-nav li {
+    margin-right: 25px;
+    padding: 25px;
+}
+
+.for-desk-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.for-border {
+    padding: 10px;
+    border: 5px solid rgb(48, 206, 206);
+    color: rgb(67, 176, 235);
+    font-weight: bold;
+}
+
+.first-content {
+    color: rgb(54, 54, 82);
+    font-size: 2rem;
+    margin-top: 2.5em;
+}
+
+.content h1 {
+    color: rgb(87, 161, 214);
+    font-size: 80px;
+}
+
+.lorem-border {
+    margin-top: 1.5em;
+    margin-right: 10em;
+    background-color: rgb(231, 226, 226);
+    border: 3px solid rgb(236, 236, 236);
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+.concert-time {
+    margin-top: 1.5em;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.concert-time-sec {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.to-move {
+    margin-left: 20px;
+}
+
+.pattern-bg {
+    background-image: url(/images/card2-patternn.png);
+    background-color: #272930;
+    text-align: center;
+    padding: 2%;
+}
+
+.white-design {
+    color: white;
+    font-size: 1.5em;
+}
+
+.see-detail {
+    color: white;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.line-main-pg {
+    width: 5em;
+    height: 2px;
+    background-color: aqua;
+    margin-left: 38rem;
+    margin-top: 1em;
+    margin-bottom: 40px;
+}
+
+.card-forum {
+    display: grid;
+    display: flex;
+    gap: 10px;
+}
+
+.card-forum-details {
+    gap: 1em;
+    padding: 0.75em;
+    font-size: 1em;
+    background-color: #f7f7f71a;
+    color: white;
+}
+
+.card-forum-details span {
+    display: block;
+    font-size: 1.5em;
+    color: #2af0f6;
+}
+
+.card-forum-details p {
+    margin-top: 30px;
+    flex: 2 0 0;
+    color: #fff;
+}
+
+.card-forum-details:hover {
+    border: 1px solid white;
+    transform: scale(1.1, 1);
+}
