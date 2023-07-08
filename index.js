@@ -6,10 +6,12 @@ closeButton.addEventListener("click", function() {
     menu.style.display = "none";
 });
 
-function toggleMenu() {
+document.getElementById("menu-two").addEventListener("click", function() {
     var menu = document.getElementById("for-hamburger");
     menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
-}
+});
+
+
 
 const cardDatas = [{
         icon: 'images/card1.png',
