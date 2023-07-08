@@ -1,13 +1,15 @@
-//forum cards
-// Get references to the burger icon and the navbar
-const burgerIcon = document.getElementById('burger');
-const navbar = document.getElementById('for-nav');
+var closeButton = document.getElementById("for-close-burger");
+var menu = document.getElementById("for-hamburger");
 
-// Add a click event listener to the burger icon
-burgerIcon.addEventListener('click', function() {
-    // Toggle the "active" class on the navbar
-    navbar.classList.toggle('active');
+
+closeButton.addEventListener("click", function() {
+    menu.style.display = "none";
 });
+
+function toggleMenu() {
+    var menu = document.getElementById("for-hamburger");
+    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+}
 
 const cardDatas = [{
         icon: 'images/card1.png',
