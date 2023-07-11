@@ -11,8 +11,6 @@ document.getElementById("menu-two").addEventListener("click", function() {
     menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
 });
 
-
-
 const cardDatas = [{
         icon: 'images/card1.png',
         title: 'Lecture',
@@ -102,6 +100,7 @@ const Data = [{
         profession: 'Dancer',
         description: 'Perfomance at YG entertainment',
     },
+
 ];
 
 const container = document.getElementById('BTS');
@@ -113,9 +112,12 @@ function renderPlayer(player) {
       <div class="player-content">
         <h2 class="player-header">${player.name}</h2>
         <h3 class="player-profession">${player.profession}</h3>
-          <a class="player-description">${player.description}</a>
+       <hr class="player-line">
+              <a class="player-description">${player.description}</a>
         </div>
+        
       </div>
+      
   `;
 }
 

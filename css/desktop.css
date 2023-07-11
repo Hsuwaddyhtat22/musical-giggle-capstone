@@ -1,367 +1,414 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-@media (min-width: 768px) {
-  .icon-nav {
-    display: flex;
-    align-items: center;
-    background-color: #272a31;
-    height: 3rem;
-  }
-
-  .ham-burger {
-    display: none;
-  }
-
-  #menu-two {
-    display: none;
-  }
-
-  .for-icon-nav {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin-left: 60em;
-  }
-
-  .for-icon-nav li {
-    margin-right: 20px;
-  }
-
-  .for-icon-nav li a {
-    text-decoration: none;
-    color: #fffefe;
-  }
-
-  .close-btn {
-    display: none;
-  }
-
-  .music-logo {
-    width: 120px;
-    display: block;
-  }
-
-  .container-two {
-    background-image: url(/images/mainpage-bg.jpeg);
-  }
-
-  .lower-nav {
-    display: flex;
-    align-items: center;
-    background-color: #e6e8eb;
-    height: 4rem;
-  }
-
-  .burger {
-    display: none;
-  }
-
-  .for-desk-nav {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin-left: 22em;
-  }
-
-  .for-desk-nav li {
-    margin-right: 25px;
-    padding: 25px;
-  }
-
-  .for-desk-nav li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .for-border {
-    padding: 10px;
-    border: 5px solid rgb(48, 206, 206);
-    color: rgb(67, 176, 235);
-    font-weight: bold;
-  }
-
-  .first-content {
-    color: rgb(54, 54, 82);
-    font-size: 2rem;
-    margin-top: 2.5em;
-  }
-
-  .content h1 {
-    color: rgb(87, 161, 214);
-    font-size: 80px;
-  }
-
-  .lorem-border {
-    margin-top: 1.5em;
-    margin-right: 10em;
-    background-color: rgb(231, 226, 226);
-    border: 3px solid rgb(236, 236, 236);
-    font-size: 1.2em;
-    padding: 20px;
-  }
-
-  .concert-time {
-    margin-top: 1.5em;
-    font-size: 2rem;
-    color: white;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  .concert-time-sec {
-    font-size: 2rem;
-    color: white;
-    font-weight: bold;
-  }
-
-  .to-move {
-    margin-left: 20px;
-  }
-
-  .pattern-bg {
-    background-image: url(/images/card2-patternn.png);
-    background-color: #272930;
-    text-align: center;
-    padding: 8%;
-  }
-
-  .white-design {
-    color: white;
-    font-size: 1.5em;
-  }
-
-  .see-detail {
-    color: white;
-    font-size: 1.4em;
-    margin-top: 30px;
-  }
-
-  .see-detail:hover {
-    color: aqua;
-    cursor: pointer;
-  }
-
-  .line-main-pg {
-    width: 5em;
-    height: 2px;
-    background-color: aqua;
-    margin-left: 33rem;
-    margin-top: 1em;
-    margin-bottom: 40px;
-  }
-
-  .card-forum {
-    display: grid;
-    display: flex;
-    gap: 10px;
-  }
-
-  .player-container {
-    display: grid;
-    flex-direction: column;
-    background: #fff;
-    margin: 40px auto;
-    text-align: center;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .player-img {
-    width: 130px;
-    margin-left: 200px;
-    box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
-  }
-
-  .Featured-artist {
-    font-size: 2em;
-    text-align: center;
-  }
-
-  .artist-bottom-line {
-    width: 5rem;
-    height: 3px;
-    background-color: #2af0f6;
-    margin-left: 39rem;
-    margin-top: 1rem;
-  }
-
-  .player-header {
-    font-family: var(--font-roboto);
-    display: flex;
-    color: #1d1d1d;
-    font-size: 1rem;
-    font-weight: bold;
-  }
-
-  .player-profession {
-    color: #06a1f4;
-    font-size: 11px;
-    font-style: italic;
-    display: flex;
-  }
-
-  .player-description {
-    width: 500px;
-    display: flex;
-  }
-
-  .for-partner {
-    background-color: #272930;
-    padding: 40px;
-  }
-
-  .partner {
-    width: 100%;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .line-partner {
-    width: 60px;
-    height: 2px;
-    background-color: aqua;
-    margin-left: 37.5em;
-    margin-top: 1em;
-  }
-
-  .burn {
-    display: flex;
-    margin-left: 300px;
-    margin-top: 60px;
-  }
-
-  .color-burn li {
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px 10%;
-  }
-
-  .color-burn img {
-    width: 150px;
-    height: 100px;
-  }
-
-  .music {
-    margin-left: 260px;
-    width: 250px;
-  }
-
-  .flex {
-    display: flex;
-  }
-
-  .reserved {
-    font-size: 1.1em;
-    position: absolute;
-    left: 25em;
-    top: 148em;
-  }
-
-  /* aboutpage */
-  .dolphin {
-    background-image: url(/images/secpage-bg.jpeg);
-  }
-
-  .blue {
-    color: #06a1f4;
-    text-align: center;
-    font-size: 22px;
-    padding-top: 100px;
-  }
-
-  .lorem {
-    margin-top: 2em;
-    margin-left: 7em;
-    margin-right: 7em;
-    background-color: rgb(231, 226, 226);
-    border: 3px solid rgb(236, 236, 236);
-    font-size: 1em;
-    padding: 20px;
-  }
-
-  .question {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    color: #06a1f4;
-    font-weight: bold;
-  }
-
-  .email {
-    color: black;
-    font-size: 15px;
-  }
-
-  .email:hover {
-    color: rgb(60, 126, 101);
-  }
-
-  .white {
-    background-color: white;
-  }
-
-  .design {
-    width: 70px;
-    height: 2px;
-    background-color: #2af0f6;
-    margin-right: 40em;
-  }
-
-  .design-two {
-    display: none;
-  }
-
-  .design-three {
-    display: none;
-  }
-
-  .event-concert {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
-
-  .ipsum {
-    padding: 20px 20px;
-    font-size: 18px;
-    padding-top: 40px;
-  }
-
-  .align {
-    margin: 25px 38%;
-  }
-
-  .for-2022 {
-    display: flex;
-  }
-
-  .for-2022 li {
-    display: flex;
-    padding: 20px;
-  }
-
-  .for-2023 {
-    margin-left: 15%;
-  }
-
-  .final {
-    background-color: #272a31;
-  }
-
-  .reserve {
-    font-size: 1.1em;
-    position: absolute;
-    left: 25em;
-    top: 100em;
-  }
-}
+        @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600;700;900&family=Lato:wght@300&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style-type: none;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        @media (min-width: 768px) {
+            .icon-nav {
+                display: flex;
+                align-items: center;
+                background-color: #272a31;
+                height: 3rem;
+            }
+            .ham-burger {
+                display: none;
+            }
+            #menu-two {
+                display: none;
+            }
+            .for-icon-nav {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                margin-left: 60em;
+            }
+            .for-icon-nav li {
+                margin-right: 20px;
+            }
+            .for-icon-nav li a {
+                text-decoration: none;
+                color: #fffefe;
+            }
+            .close-btn {
+                display: none;
+            }
+            .music-logo {
+                width: 120px;
+                display: block;
+            }
+            .container-two {
+                background-image: url(/images/main_big.png);
+            }
+            .lower-nav {
+                display: flex;
+                align-items: center;
+                background-color: #e6e8eb;
+                height: 4rem;
+            }
+            .burger {
+                display: none;
+            }
+            .for-desk-nav {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                margin-left: 22em;
+            }
+            .for-desk-nav li {
+                margin-right: 25px;
+                padding: 25px;
+            }
+            .for-desk-nav li a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .for-border {
+                padding: 10px;
+                border: 4px solid #ec5242;
+                color: #ec5242;
+                font-weight: bold;
+            }
+            .first-content {
+                color: #ec5242;
+                font-size: 2rem;
+                margin-top: 2.5em;
+            }
+            .content h1 {
+                color: #ec5242;
+                font-size: 80px;
+                font-weight: bold;
+            }
+            .lorem-border {
+                margin-top: 1.5em;
+                margin-right: 10em;
+                background-color: rgb(231, 226, 226);
+                border: 3px solid rgb(236, 236, 236);
+                font-size: 1.2em;
+                padding: 20px;
+            }
+            .concert-time {
+                margin-top: 1.5em;
+                font-size: 2rem;
+                color: #272A31;
+                font-weight: er;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .concert-time-sec {
+                font-size: 1.5rem;
+                color: #272A31;
+                margin-bottom: 2em;
+            }
+            .to-move {
+                margin-left: 20px;
+            }
+            .pattern-bg {
+                background-image: url(/images/card2-patternn.png);
+                background-color: #272930;
+                text-align: center;
+                padding: 8%;
+            }
+            .white-design {
+                color: white;
+                font-size: 1.5em;
+            }
+            .see-detail {
+                color: white;
+                font-size: 1.4em;
+                margin-top: 30px;
+                text-decoration-line: underline;
+                display: block;
+            }
+            .join-cc {
+                display: none;
+            }
+            .join-dd {
+                display: none;
+            }
+            .see-detail:hover {
+                color: #ec5242;
+                cursor: pointer;
+            }
+            .line-main-pg {
+                width: 5em;
+                height: 2px;
+                background-color: #ec5242;
+                margin-top: 1em;
+                margin-bottom: 40px;
+            }
+            .card-forum {
+                display: grid;
+                display: flex;
+                gap: 10px;
+            }
+            .player-container {
+                display: grid;
+                flex-direction: column;
+                background: #fff;
+                margin: 40px auto;
+                text-align: center;
+                grid-template-columns: 1fr 1fr;
+            }
+            .player-img {
+                width: 130px;
+                margin-left: 200px;
+                box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
+            }
+            .Featured-artist {
+                font-size: 2em;
+                text-align: center;
+            }
+            .artist-bottom-line {
+                width: 100px;
+                margin: 10px auto 40px;
+                background-color: #ec5242;
+            }
+        }
+        
+        .player-header {
+            font-family: var(--font-roboto);
+            display: flex;
+            color: #1d1d1d;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        
+        .player-profession {
+            color: #ec5242;
+            font-weight: bolder;
+            font-size: 15px;
+            font-style: italic;
+            display: flex;
+        }
+        
+        .player-description {
+            width: 500px;
+            display: flex;
+        }
+        
+        .for-partner {
+            background-color: #272930;
+            padding: 40px;
+        }
+        
+        .for-partner-sec {
+            background-color: #272930;
+            padding: 40px;
+        }
+        
+        .partner {
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .line-partner {
+            width: 60px;
+            height: 2px;
+            background-color: #ec5242;
+            margin-left: 37.5em;
+            margin-top: 1em;
+        }
+        
+        .for-width {
+            max-width: 100%;
+            padding: 0 15px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+        
+        .burn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .color-burn {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .color-burn img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Media Query for smaller screens */
+        
+        .color-burn img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .music {
+            margin-left: 150px;
+            width: 250px;
+        }
+        
+        .flex {
+            display: flex;
+        }
+        /* aboutpage */
+        
+        .dolphin {
+            background-image: url(/images/main_big.png);
+        }
+        
+        .blue {
+            color: #ec5242;
+            text-align: center;
+            font-size: 22px;
+            padding-top: 100px;
+        }
+        
+        .lorem {
+            margin-top: 2em;
+            margin-left: 7em;
+            margin-right: 7em;
+            background-color: rgb(231, 226, 226);
+            border: 3px solid rgb(236, 236, 236);
+            font-size: 1em;
+            padding: 20px;
+        }
+        
+        .question {
+            font-size: 20px;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 20px;
+            color: #ec5242;
+            font-weight: bold;
+        }
+        
+        .email {
+            color: black;
+            font-size: 15px;
+        }
+        
+        .email:hover {
+            color: rgb(60, 126, 101);
+        }
+        
+        .white {
+            background-color: white;
+        }
+        
+        .event-concert {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        
+        .ipsum {
+            padding: 20px 20px;
+            font-size: 18px;
+            padding-top: 40px;
+        }
+        
+        .align {
+            margin: 25px 38%;
+        }
+        
+        .for-2022 {
+            display: flex;
+        }
+        
+        .for-2022 li {
+            display: flex;
+            padding: 20px;
+        }
+        
+        .for-2023 {
+            margin-left: 15%;
+        }
+        
+        .final {
+            background-color: #272a31;
+        }
+        
+        .reserve {
+            font-size: 1.1em;
+            position: absolute;
+            left: 25em;
+            top: 100em;
+        }
+        
+        .for-footer {
+            display: flex;
+        }
+        
+        .for-footer li {
+            display: flex;
+        }
+        
+        .forblock {
+            display: block;
+        }
+        
+        .concert-photo {
+            display: block;
+        }
+        
+        .photo {
+            display: none;
+        }
+        
+        .move-display {
+            padding-top: 60px;
+        }
+        
+        .for-footer-sec {
+            display: flex;
+            background-color: #272930;
+        }
+        
+        .for-footer-sec li {
+            display: flex;
+        }
+        
+        .final-card-sec {
+            display: none;
+        }
+        
+        .footer-music {
+            width: 150px;
+        }
+        
+        @media screen and (min-width: 769px) {
+            .final-card {
+                display: block;
+            }
+            .for-partner {
+                display: block;
+            }
+            .card-sec {
+                display: none;
+            }
+            .final-card-sec {
+                display: block;
+            }
+            .for-partner-sec {
+                display: none;
+                /* Hide the section on desktop-sized screens */
+            }
+            .photo-sec {
+                display: none;
+                /* Hide the section on desktop-sized screens */
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .concert-photo {
+                display: none;
+                /* Hide the section on mobile-sized screens */
+            }
+        }
