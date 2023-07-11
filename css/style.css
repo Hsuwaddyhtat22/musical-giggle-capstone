@@ -1,368 +1,440 @@
-                                                                                                                               @media (min-width: 426px) {
-                                                                                                                                   * {
-                                                                                                                                       margin: 0;
-                                                                                                                                       padding: 0;
-                                                                                                                                       box-sizing: border-box;
-                                                                                                                                       list-style-type: none;
-                                                                                                                                       text-decoration: none;
-                                                                                                                                   }
-                                                                                                                                   .ham-burger {
-                                                                                                                                       width: 50px;
-                                                                                                                                       height: 30px;
-                                                                                                                                       margin-top: 15px;
-                                                                                                                                       margin-left: 20px;
-                                                                                                                                   }
-                                                                                                                                   #menu-two {
-                                                                                                                                       width: 50px;
-                                                                                                                                       height: 30px;
-                                                                                                                                       margin-top: 25px;
-                                                                                                                                       margin-right: 20px;
-                                                                                                                                   }
-                                                                                                                                   .for-desk-nav {
-                                                                                                                                       display: none;
-                                                                                                                                       /* Initially hide the navigation menu */
-                                                                                                                                   }
-                                                                                                                                   .for-desk-nav.open {
-                                                                                                                                       display: block;
-                                                                                                                                       /* Show the navigation menu when "open" class is present */
-                                                                                                                                       /* Add other styles as needed */
-                                                                                                                                   }
-                                                                                                                                   .icon-nav {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .music {
-                                                                                                                                       width: 50px;
-                                                                                                                                   }
-                                                                                                                                   .music-logo {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .container-two {
-                                                                                                                                       background-image: url(/images/main_big.png);
-                                                                                                                                   }
-                                                                                                                                   .lower-nav {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   #for-hamburger {
-                                                                                                                                       display: none;
-                                                                                                                                       background-image: url(/images/main_big.png);
-                                                                                                                                       backdrop-filter: blur(5px);
-                                                                                                                                       position: fixed;
-                                                                                                                                       top: 0;
-                                                                                                                                       left: 0;
-                                                                                                                                       right: 0;
-                                                                                                                                       bottom: 0;
-                                                                                                                                   }
-                                                                                                                                   #for-hamburger.show {
-                                                                                                                                       display: block;
-                                                                                                                                   }
-                                                                                                                                   .for-style li a {
-                                                                                                                                       color: #Ec5242;
-                                                                                                                                       font-size: 40px;
-                                                                                                                                       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                                                                                                                                   }
-                                                                                                                                   .for-style li a:hover {
-                                                                                                                                       color: #ffb300;
-                                                                                                                                       font-weight: bold;
-                                                                                                                                   }
-                                                                                                                                   .for-style li {
-                                                                                                                                       margin-top: 30px;
-                                                                                                                                       padding-bottom: 10px;
-                                                                                                                                       padding-left: 25px;
-                                                                                                                                   }
-                                                                                                                                   .for-close {
-                                                                                                                                       float: right;
-                                                                                                                                       margin-right: 40px;
-                                                                                                                                   }
-                                                                                                                                   .menu-hidden {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .burger {
-                                                                                                                                       display: block;
-                                                                                                                                       width: 50px;
-                                                                                                                                       height: 20px;
-                                                                                                                                   }
-                                                                                                                                   .first-content {
-                                                                                                                                       color: #Ec5242;
-                                                                                                                                       font-size: 2rem;
-                                                                                                                                       margin-top: 2.5em;
-                                                                                                                                   }
-                                                                                                                                   .content h1 {
-                                                                                                                                       color: #Ec5242;
-                                                                                                                                       font-size: 50px;
-                                                                                                                                       font-weight: bold;
-                                                                                                                                   }
-                                                                                                                                   .lorem-border {
-                                                                                                                                       margin-top: 1.5em;
-                                                                                                                                       margin-right: 10em;
-                                                                                                                                       background-color: rgb(231, 226, 226);
-                                                                                                                                       border: 3px solid rgb(236, 236, 236);
-                                                                                                                                       font-size: 1em;
-                                                                                                                                       padding: 10px;
-                                                                                                                                   }
-                                                                                                                                   .concert-time {
-                                                                                                                                       margin-top: 1.5em;
-                                                                                                                                       font-size: 2rem;
-                                                                                                                                       color: #272a31;
-                                                                                                                                       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                                                                                                                                   }
-                                                                                                                                   .concert-time-sec {
-                                                                                                                                       font-size: 1rem;
-                                                                                                                                       color: #272a31;
-                                                                                                                                       font-weight: bold;
-                                                                                                                                       padding-bottom: 20px;
-                                                                                                                                   }
-                                                                                                                                   .to-move {
-                                                                                                                                       margin-left: 20px;
-                                                                                                                                   }
-                                                                                                                                   .pattern-bg {
-                                                                                                                                       background-image: url(/images/card2-patternn.png);
-                                                                                                                                       background-color: #272930;
-                                                                                                                                       text-align: center;
-                                                                                                                                       padding: 8%;
-                                                                                                                                   }
-                                                                                                                                   .white-design {
-                                                                                                                                       color: white;
-                                                                                                                                       font-size: 1.5em;
-                                                                                                                                       margin-bottom: 15px;
-                                                                                                                                   }
-                                                                                                                                   .see-detail {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .join-cc {
-                                                                                                                                       width: 250px;
-                                                                                                                                       padding: 25px;
-                                                                                                                                       background-color: #Ec5242;
-                                                                                                                                       font-weight: bolder;
-                                                                                                                                       color: white;
-                                                                                                                                       margin-top: 40px;
-                                                                                                                                       margin-left: 75px;
-                                                                                                                                       cursor: pointer;
-                                                                                                                                   }
-                                                                                                                                   .join-dd {
-                                                                                                                                       width: 450x;
-                                                                                                                                       padding: 15px;
-                                                                                                                                       border: 2px solid rgb(171, 167, 167);
-                                                                                                                                       font-weight: bolder;
-                                                                                                                                       color: rgb(0, 0, 0);
-                                                                                                                                       margin: 0 10px;
-                                                                                                                                       margin-bottom: 30px;
-                                                                                                                                       text-align: center;
-                                                                                                                                       font-weight: bold;
-                                                                                                                                       cursor: pointer;
-                                                                                                                                   }
-                                                                                                                                   .down-errow {
-                                                                                                                                       display: flex;
-                                                                                                                                       margin-left: 180px;
-                                                                                                                                   }
-                                                                                                                                   .down-errow li {
-                                                                                                                                       display: flex;
-                                                                                                                                   }
-                                                                                                                                   .for-size {
-                                                                                                                                       width: 30px;
-                                                                                                                                       height: 10px;
-                                                                                                                                       padding-left: 10px;
-                                                                                                                                       margin-top: 7px;
-                                                                                                                                   }
-                                                                                                                                   .card-forum {
-                                                                                                                                       display: grid;
-                                                                                                                                       gap: 12px;
-                                                                                                                                   }
-                                                                                                                                   .card-forum-details {
-                                                                                                                                       gap: 1em;
-                                                                                                                                       padding: 0.75em;
-                                                                                                                                       font-size: 1em;
-                                                                                                                                       background-color: #f7f7f71a;
-                                                                                                                                       color: white;
-                                                                                                                                   }
-                                                                                                                                   .card-forum-details span {
-                                                                                                                                       display: block;
-                                                                                                                                       font-size: 1.3em;
-                                                                                                                                       font-weight: bold;
-                                                                                                                                       color: #Ec5242;
-                                                                                                                                   }
-                                                                                                                                   .card-forum-details p {
-                                                                                                                                       margin-top: 30px;
-                                                                                                                                       flex: 2 0 0;
-                                                                                                                                       color: #fff;
-                                                                                                                                       text-align: start;
-                                                                                                                                       display: flex;
-                                                                                                                                   }
-                                                                                                                                   .card-forum-details:hover {
-                                                                                                                                       border: 1px solid white;
-                                                                                                                                       transform: scale(1.1, 1);
-                                                                                                                                   }
-                                                                                                                                   .player-list {
-                                                                                                                                       width: 500px;
-                                                                                                                                       height: auto;
-                                                                                                                                       display: flex;
-                                                                                                                                       justify-content: center;
-                                                                                                                                       align-items: center;
-                                                                                                                                       margin: 40px auto;
-                                                                                                                                   }
-                                                                                                                                   .player-img {
-                                                                                                                                       width: 100px;
-                                                                                                                                       margin-left: 180px;
-                                                                                                                                       box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
-                                                                                                                                   }
-                                                                                                                                   .player-line {
-                                                                                                                                       width: 20px;
-                                                                                                                                       border: none;
-                                                                                                                                       border-top: 1px solid #ccc;
-                                                                                                                                       height: 1px;
-                                                                                                                                       margin: 8px;
-                                                                                                                                   }
-                                                                                                                                   .Featured-artist {
-                                                                                                                                       font-size: 2em;
-                                                                                                                                       text-align: center;
-                                                                                                                                       padding-top: 20px;
-                                                                                                                                       padding-bottom: 15px;
-                                                                                                                                   }
-                                                                                                                                   .artist-bottom-line {
-                                                                                                                                       width: 70px;
-                                                                                                                                       height: 2px;
-                                                                                                                                       margin: 0 auto 40px;
-                                                                                                                                       background-color: #ec5242;
-                                                                                                                                   }
-                                                                                                                                   .player-header {
-                                                                                                                                       font-family: var(--font-roboto);
-                                                                                                                                       color: #1d1d1d;
-                                                                                                                                       font-size: 1rem;
-                                                                                                                                       font-weight: bold;
-                                                                                                                                       margin-left: 10px;
-                                                                                                                                       display: flex;
-                                                                                                                                   }
-                                                                                                                                   .player-profession {
-                                                                                                                                       color: #06a1f4;
-                                                                                                                                       font-size: 11px;
-                                                                                                                                       margin: 5px 0 5px 0;
-                                                                                                                                       font-style: italic;
-                                                                                                                                       margin-left: 10px;
-                                                                                                                                       display: flex;
-                                                                                                                                   }
-                                                                                                                                   .player-description {
-                                                                                                                                       display: flex;
-                                                                                                                                       margin-left: 10px;
-                                                                                                                                   }
-                                                                                                                                   .line {
-                                                                                                                                       width: 30px;
-                                                                                                                                       height: 2px;
-                                                                                                                                       background-color: black;
-                                                                                                                                   }
-                                                                                                                                   .align {
-                                                                                                                                       width: 30%;
-                                                                                                                                   }
-                                                                                                                                   .forpartner {
-                                                                                                                                       background-color: #272930;
-                                                                                                                                       padding: 40px;
-                                                                                                                                   }
-                                                                                                                                   .partner {
-                                                                                                                                       width: 100%;
-                                                                                                                                       color: white;
-                                                                                                                                       font-size: 30px;
-                                                                                                                                       text-align: center;
-                                                                                                                                       margin-bottom: 15px;
-                                                                                                                                   }
-                                                                                                                                   .line-partner {
-                                                                                                                                       width: 60px;
-                                                                                                                                       height: 2px;
-                                                                                                                                       background-color: aqua;
-                                                                                                                                       margin-left: 37.5em;
-                                                                                                                                       margin-top: 1em;
-                                                                                                                                   }
-                                                                                                                                   .for-width {
-                                                                                                                                       margin: 0px 1%;
-                                                                                                                                   }
-                                                                                                                                   .burn {
-                                                                                                                                       display: flex;
-                                                                                                                                       margin-top: 60px;
-                                                                                                                                   }
-                                                                                                                                   /* aboutpage */
-                                                                                                                                   .dolphin {
-                                                                                                                                       background-image: url(/images/main_big.png);
-                                                                                                                                   }
-                                                                                                                                   .blue {
-                                                                                                                                       color: #06a1f4;
-                                                                                                                                       text-align: center;
-                                                                                                                                       font-size: 22px;
-                                                                                                                                       padding-top: 100px;
-                                                                                                                                   }
-                                                                                                                                   .lorem {
-                                                                                                                                       margin-top: 2em;
-                                                                                                                                       margin-left: 7em;
-                                                                                                                                       margin-right: 7em;
-                                                                                                                                       background-color: rgb(231, 226, 226);
-                                                                                                                                       border: 3px solid rgb(236, 236, 236);
-                                                                                                                                       font-size: 1em;
-                                                                                                                                       padding: 20px;
-                                                                                                                                   }
-                                                                                                                                   .question {
-                                                                                                                                       font-size: 20px;
-                                                                                                                                       text-align: center;
-                                                                                                                                       padding-top: 100px;
-                                                                                                                                       padding-bottom: 20px;
-                                                                                                                                       color: #06a1f4;
-                                                                                                                                       font-weight: bold;
-                                                                                                                                   }
-                                                                                                                                   .email {
-                                                                                                                                       color: black;
-                                                                                                                                       font-size: 15px;
-                                                                                                                                   }
-                                                                                                                                   .email:hover {
-                                                                                                                                       color: rgb(60, 126, 101);
-                                                                                                                                   }
-                                                                                                                                   .white {
-                                                                                                                                       background-color: white;
-                                                                                                                                   }
-                                                                                                                                   .event-concert {
-                                                                                                                                       text-align: center;
-                                                                                                                                       padding-top: 50px;
-                                                                                                                                       padding-bottom: 30px;
-                                                                                                                                   }
-                                                                                                                                   .ipsum {
-                                                                                                                                       padding: 20px 20px;
-                                                                                                                                       font-size: 18px;
-                                                                                                                                       padding-top: 40px;
-                                                                                                                                   }
-                                                                                                                                   .ali gn {
-                                                                                                                                       margin-left: 60px;
-                                                                                                                                   }
-                                                                                                                                   for-2022 li {
-                                                                                                                                       padding: 20px;
-                                                                                                                                   }
-                                                                                                                                   .concert-photo {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .for-padding {
-                                                                                                                                       padding: 0px 10px 30px 15px;
-                                                                                                                                   }
-                                                                                                                                   .final {
-                                                                                                                                       background-color: #272a31;
-                                                                                                                                   }
-                                                                                                                                   .reserve {
-                                                                                                                                       font-size: 1.1em;
-                                                                                                                                       padding-left: 20px;
-                                                                                                                                       padding-right: 20px;
-                                                                                                                                   }
-                                                                                                                                   .for-footer {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .for-partner {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .final-card {
-                                                                                                                                       display: none;
-                                                                                                                                   }
-                                                                                                                                   .card-sec {
-                                                                                                                                       display: block;
-                                                                                                                                   }
-                                                                                                                                   .rights {
-                                                                                                                                       padding-top: 40px;
-                                                                                                                                   }
-                                                                                                                                   .photo-sec {
-                                                                                                                                       margin-left: 15px;
-                                                                                                                                       margin-top: 10px;
-                                                                                                                                   }
-                                                                                                                                   .photo-sec li {
-                                                                                                                                       padding-bottom: 20px;
-                                                                                                                                   }
-                                                                                                                               }
+@media (min-width: 426px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .ham-burger {
+    width: 50px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  #menu-two {
+    width: 50px;
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+
+  .for-desk-nav {
+    display: none;
+
+    /* Initially hide the navigation menu */
+  }
+
+  .for-desk-nav.open {
+    display: block;
+
+    /* Show the navigation menu when "open" class is present */
+
+    /* Add other styles as needed */
+  }
+
+  .icon-nav {
+    display: none;
+  }
+
+  .music {
+    width: 50px;
+  }
+
+  .music-logo {
+    display: none;
+  }
+
+  .container-two {
+    background-image: url(/images/main_big.png);
+  }
+
+  .lower-nav {
+    display: none;
+  }
+
+  #for-hamburger {
+    display: none;
+    background-image: url(/images/main_big.png);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  #for-hamburger.show {
+    display: block;
+  }
+
+  .for-style li a {
+    color: #ec5242;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .for-style li a:hover {
+    color: #ffb300;
+    font-weight: bold;
+  }
+
+  .for-style li {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+  }
+
+  .for-close {
+    float: right;
+    margin-right: 40px;
+  }
+
+  .menu-hidden {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    width: 50px;
+    height: 20px;
+  }
+
+  .first-content {
+    color: #ec5242;
+    font-size: 2rem;
+    margin-top: 2.5em;
+  }
+
+  .content h1 {
+    color: #ec5242;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .lorem-border {
+    margin-top: 1.5em;
+    margin-right: 10em;
+    background-color: rgb(231, 226, 226);
+    border: 3px solid rgb(236, 236, 236);
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .concert-time {
+    margin-top: 1.5em;
+    font-size: 2rem;
+    color: #272a31;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .concert-time-sec {
+    font-size: 1rem;
+    color: #272a31;
+    font-weight: bolder;
+    padding-bottom: 20px;
+  }
+
+  .to-move {
+    margin-left: 20px;
+  }
+
+  .pattern-bg {
+    background-image: url(/images/card2-patternn.png);
+    background-color: #272930;
+    text-align: center;
+    padding: 8%;
+  }
+
+  .white-design {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .see-detail {
+    display: none;
+  }
+
+  .join-cc {
+    width: 250px;
+    padding: 25px;
+    background-color: #ec5242;
+    font-weight: bolder;
+    color: white;
+    margin-top: 40px;
+    margin-left: 75px;
+    cursor: pointer;
+  }
+
+  .join-dd {
+    width: 450px;
+    padding: 15px;
+    border: 2px solid rgb(171, 167, 167);
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .down-errow {
+    display: flex;
+    margin-left: 180px;
+  }
+
+  .down-errow li {
+    display: flex;
+  }
+
+  .for-size {
+    width: 30px;
+    height: 10px;
+    padding-left: 10px;
+    margin-top: 7px;
+  }
+
+  .card-forum {
+    display: grid;
+    gap: 12px;
+  }
+
+  .card-forum-details {
+    gap: 1em;
+    padding: 0.75em;
+    font-size: 1em;
+    background-color: #f7f7f71a;
+    color: white;
+  }
+
+  .card-forum-details span {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ec5242;
+  }
+
+  .card-forum-details p {
+    margin-top: 30px;
+    flex: 2 0 0;
+    color: #fff;
+    text-align: start;
+    display: flex;
+  }
+
+  .card-forum-details:hover {
+    border: 1px solid white;
+    transform: scale(1.1, 1);
+  }
+
+  .player-list {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+  }
+
+  .player-img {
+    width: 100px;
+    margin-left: 180px;
+    box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
+  }
+
+  .player-line {
+    width: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+    height: 1px;
+    margin: 8px;
+  }
+
+  .Featured-artist {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .artist-bottom-line {
+    width: 70px;
+    height: 2px;
+    margin: 0 auto 40px;
+    background-color: #ec5242;
+  }
+
+  .player-header {
+    font-family: var(--font-roboto);
+    color: #1d1d1d;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  .player-profession {
+    color: #06a1f4;
+    font-size: 11px;
+    margin: 5px 0 5px 0;
+    font-style: italic;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  .player-description {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .line {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+  }
+
+  #align {
+    width: 30%;
+  }
+
+  .forpartner {
+    background-color: #272930;
+    padding: 40px;
+  }
+
+  .partner {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .line-partner {
+    width: 60px;
+    height: 2px;
+    background-color: aqua;
+    margin-left: 37.5em;
+    margin-top: 1em;
+  }
+
+  .for-width {
+    margin: 0 1%;
+  }
+
+  .burn {
+    display: flex;
+    margin-top: 60px;
+  }
+
+  /* aboutpage */
+  .dolphin {
+    background-image: url(/images/main_big.png);
+  }
+
+  .blue {
+    color: #06a1f4;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 100px;
+  }
+
+  .lorem {
+    margin-top: 2em;
+    margin-left: 7em;
+    margin-right: 7em;
+    background-color: rgb(231, 226, 226);
+    border: 3px solid rgb(236, 236, 236);
+    font-size: 1em;
+    padding: 20px;
+  }
+
+  .question {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #06a1f4;
+    font-weight: bold;
+  }
+
+  .email {
+    color: black;
+    font-size: 15px;
+  }
+
+  .email:hover {
+    color: rgb(60, 126, 101);
+  }
+
+  .white {
+    background-color: white;
+  }
+
+  .event-concert {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .ipsum {
+    padding: 20px 20px;
+    font-size: 18px;
+    padding-top: 40px;
+  }
+
+  .align {
+    margin-left: 60px;
+  }
+
+  .concert-photo {
+    display: none;
+  }
+
+  .for-padding {
+    padding: 0 10px 30px 15px;
+  }
+
+  .final {
+    background-color: #272a31;
+  }
+
+  .reserve {
+    font-size: 1.1em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .for-footer {
+    display: none;
+  }
+
+  .for-partner {
+    display: none;
+  }
+
+  .final-card {
+    display: none;
+  }
+
+  .card-sec {
+    display: block;
+  }
+
+  .rights {
+    padding-top: 40px;
+  }
+
+  .photo-sec {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .photo-sec li {
+    padding-bottom: 20px;
+  }
+}
