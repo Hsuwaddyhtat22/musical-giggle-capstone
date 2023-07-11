@@ -276,9 +276,6 @@
   padding: 10px;
 }
 
-
-/* Media Query for smaller screens */
-
 .music {
   margin-left: 150px;
   width: 250px;
@@ -287,9 +284,6 @@
 .flex {
   display: flex;
 }
-
-
-/* aboutpage */
 
 .dolphin {
   background-image: url(/images/main_big.png);
