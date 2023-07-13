@@ -59,7 +59,7 @@ My website design inspired by Behance.I makes more styling for better view and a
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hsuwaddyhtat22.github.io/Microverse-first-capstone-project/)
+- [Live Demo Link](https://hsuwaddyhtat22.github.io/musical-giggle-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
