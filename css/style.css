@@ -112,24 +112,25 @@
 
   .content h1 {
     color: #ec5242;
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .lorem {
     width: 300px;
-    margin-top: 2em;
-    margin-left: 6em;
     background-color: white;
     border: 3px solid rgb(236, 236, 236);
     font-size: 1em;
     padding: 20px;
     font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
   }
 
   .lorem-border {
-    width: 400px;
+    width: 300px;
     margin-top: 20px;
     background-color: rgb(231, 226, 226);
     border: 3px solid rgb(236, 236, 236);
@@ -151,11 +152,16 @@
     padding-bottom: 20px;
   }
 
+  .to-center {
+    text-align: center;
+  }
+
   .to-move {
     margin-left: 20px;
   }
 
   .pattern-bg {
+    width: 100%;
     background-image: url(/images/card2-patternn.png);
     background-color: #272930;
     text-align: center;
@@ -246,18 +252,18 @@
   }
 
   .player-list {
-    width: 45em;
+    width: 100%;
+    max-width: 45em;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px -100px;
+    margin: 50px -30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    justify-items: center;
   }
 
   .player-img {
     display: flex;
     width: 100px;
-    margin-left: 40px;
     box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
   }
 
@@ -311,7 +317,7 @@
   }
 
   #align {
-    width: 30%;
+    width: 20%;
   }
 
   .forpartner {
@@ -352,7 +358,7 @@
   .blue {
     color: #06a1f4;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 100px;
   }
 
@@ -433,7 +439,7 @@
   }
 
   .photo-sec {
-    margin-left: 17px;
+    margin-left: 3%;
     margin-top: 10px;
   }
 
