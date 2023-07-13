@@ -64,7 +64,7 @@
     font-size: 20px;
     font-weight: bolder;
     display: none;
-    background-image: url(/images/main_big.png);
+    background-image: url(../images/main_big.png);
     backdrop-filter: blur(5px);
     position: fixed;
     top: 0;
@@ -261,7 +261,7 @@
   .player-img {
     display: flex;
     width: 100px;
-    margin-left: 150px;
+    margin-left: 40px;
     box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
   }
 
