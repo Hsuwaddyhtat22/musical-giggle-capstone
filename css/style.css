@@ -110,14 +110,15 @@
 
   .content {
     color: #ec5242;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .lorem {
     width: 300px;
     margin-top: 2em;
-    margin-left: 5em;
+    margin-left: 13em;
     background-color: white;
     border: 3px solid rgb(236, 236, 236);
     font-size: 1em;
@@ -126,8 +127,9 @@
   }
 
   .lorem-border {
+    width: 500px;
     margin-top: 1.5em;
-    margin-right: 10em;
+    margin-top: 100px;
     background-color: rgb(231, 226, 226);
     border: 3px solid rgb(236, 236, 236);
     font-size: 1em;
@@ -177,7 +179,7 @@
     font-weight: bolder;
     color: white;
     margin-top: 40px;
-    margin-left: 75px;
+    margin-left: 26%;
     cursor: pointer;
   }
 
@@ -191,6 +193,7 @@
     margin-bottom: 30px;
     text-align: center;
     cursor: pointer;
+    margin-left: 20%;
   }
 
   .down-errow {
@@ -431,7 +434,7 @@
   }
 
   .photo-sec {
-    margin-left: 15px;
+    margin-left: 130px;
     margin-top: 10px;
   }
 
