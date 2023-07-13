@@ -28,7 +28,7 @@
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-left: 96em;
+    margin-left: 58em;
   }
 
   .for-icon-nav li {
@@ -69,7 +69,7 @@
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-left: 55em;
+    margin-left: 17em;
   }
 
   .for-desk-nav li {
@@ -93,7 +93,7 @@
 
   .first-content {
     color: #ec5242;
-    font-size: 4rem;
+    font-size: 2rem;
     margin-top: 2.5em;
     margin-left: 100px;
     font-weight: bolder;
@@ -113,7 +113,7 @@
 
   .lorem {
     width: 700px;
-    margin-left: 40rem;
+    margin-left: 20rem;
     background-color: white;
     font-weight: bold;
     margin-bottom: 60px;
@@ -125,12 +125,12 @@
     font-size: 1.2em;
     padding: 20px;
     width: 700px;
-    margin-left: 100px;
+    margin-left: 120px;
   }
 
   .concert-time {
     margin-top: 1.5em;
-    margin-left: 100px;
+    margin-left: 120px;
     font-size: 3rem;
     color: #272a31;
     font-weight: bolder;
@@ -141,7 +141,7 @@
     font-size: 1.5rem;
     color: #272a31;
     margin-bottom: 4em;
-    margin-left: 100px;
+    margin-left: 120px;
   }
 
   .to-move {
@@ -213,7 +213,7 @@
 
   .player-img {
     width: 130px;
-    margin-left: 200px;
+    margin-left: 300px;
     box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
   }
 
@@ -318,7 +318,7 @@
 .blue h2 {
   color: #ec5242;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -361,6 +361,7 @@
 
 .for-2022 {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .for-2022 li {
@@ -369,7 +370,7 @@
 }
 
 .for-2023 {
-  margin-left: 25%;
+  margin-left: 13%;
 }
 
 .final {
@@ -412,7 +413,7 @@
 .for-footer-sec {
   display: flex;
   background-color: #272930;
-  padding-left: 300px;
+  padding-left: 40px;
 }
 
 .for-footer-sec li {
@@ -429,7 +430,7 @@
 
 .for-color {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
