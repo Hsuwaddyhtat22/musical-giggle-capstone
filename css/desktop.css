@@ -9,10 +9,6 @@
 }
 
 @media (min-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .icon-nav {
     display: flex;
     align-items: center;
@@ -208,11 +204,20 @@
 
   .player-container {
     display: grid;
-    flex-direction: column;
-    background: #fff;
-    margin: 40px auto;
-    text-align: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 550px);
+    grid-gap: 20px;
+    justify-items: center;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .player-list {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
   }
 
   .player-img {
@@ -233,16 +238,7 @@
   }
 }
 
-.player-list {
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  margin: 40px auto;
-}
-
 .player-header {
-  font-family: var(--font-roboto);
-  display: flex;
   color: #1d1d1d;
   font-size: 1rem;
   font-weight: bold;
@@ -255,11 +251,6 @@
   font-style: italic;
   display: flex;
   margin-left: 10px;
-}
-
-.player-description {
-  width: 500px;
-  display: flex;
 }
 
 .for-partner {
