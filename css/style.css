@@ -7,6 +7,10 @@
     text-decoration: none;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   .ham-burger {
     width: 50px;
     height: 30px;
@@ -246,17 +250,18 @@
   }
 
   .player-list {
-    width: 500px;
+    width: 45em;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    margin: 50px auto;
   }
 
   .player-img {
+    display: flex;
     width: 100px;
-    margin-left: 180px;
+    margin-left: 150px;
     box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
   }
 
@@ -288,15 +293,13 @@
     font-size: 1em;
     font-weight: bold;
     margin-left: 10px;
-    display: flex;
   }
 
   .player-profession {
-    color: #06a1f4;
-    font-size: 11px;
-    margin: 5px 0 5px 0;
+    color: #ec5242;
+    font-weight: bolder;
+    font-size: 15px;
     font-style: italic;
-    margin-left: 10px;
     display: flex;
   }
 

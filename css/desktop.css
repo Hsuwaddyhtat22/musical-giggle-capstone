@@ -9,6 +9,10 @@
 }
 
 @media (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .icon-nav {
     display: flex;
     align-items: center;
@@ -229,6 +233,13 @@
   }
 }
 
+.player-list {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
 .player-header {
   font-family: var(--font-roboto);
   display: flex;
@@ -243,6 +254,7 @@
   font-size: 15px;
   font-style: italic;
   display: flex;
+  margin-left: 10px;
 }
 
 .player-description {
