@@ -1,441 +1,482 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600;700;900&family=Lato:wght@300&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
 }
 
 @media (min-width: 768px) {
-    .icon-nav {
-        display: flex;
-        align-items: center;
-        background-color: #272a31;
-        height: 3rem;
-    }
-    .ham-burger {
-        display: none;
-    }
-    #menu-two {
-        display: none;
-    }
-    .for-icon-nav {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        margin-left: 58em;
-    }
-    .for-icon-nav li {
-        margin-right: 20px;
-    }
-    .for-icon-nav li a {
-        text-decoration: none;
-        color: #fffefe;
-    }
-    .close-btn {
-        display: none;
-    }
-    .music-logo {
-        width: 120px;
-        margin-left: 100px;
-        display: block;
-    }
-    .container-two {
-        background-image: url(../images/main_big.png);
-    }
-    .lower-nav {
-        display: flex;
-        align-items: center;
-        background-color: #e6e8eb;
-        height: 4rem;
-    }
-    .burger {
-        display: none;
-    }
-    .for-desk-nav {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        margin-left: 17em;
-    }
-    .for-desk-nav li {
-        margin-right: 25px;
-        padding: 25px;
-    }
-    .for-desk-nav li a {
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .for-border {
-        padding: 10px;
-        border: 4px solid #ec5242;
-        color: #ec5242;
-        font-weight: bold;
-    }
-    .first-content {
-        color: #ec5242;
-        font-size: 2rem;
-        margin-top: 2.5em;
-        margin-left: 100px;
-        font-weight: bolder;
-    }
-    .cover {
-        margin-left: 20px;
-    }
-    .content h1 {
-        color: #ec5242;
-        font-size: 4.5em;
-        font-weight: bolder;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 100px;
-    }
-    .lorem {
-        width: 700px;
-        margin-left: 25%;
-        background-color: white;
-        font-weight: bold;
-        margin-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .lorem-border {
-        margin-top: 1.5em;
-        border: 3px solid rgb(236, 236, 236);
-        font-size: 1.2em;
-        padding: 20px;
-        width: 700px;
-        margin-left: 120px;
-    }
-    .concert-time {
-        margin-top: 1.5em;
-        margin-left: 120px;
-        font-size: 3rem;
-        color: #272a31;
-        font-weight: bolder;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    .concert-time-sec {
-        font-size: 1.5rem;
-        color: #272a31;
-        margin-bottom: 4em;
-        margin-left: 120px;
-    }
-    .to-move {
-        font-weight: bold;
-        margin-bottom: 30px;
-    }
-    .to-center {
-        text-align: center;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-    .pattern-bg {
-        background-image: url(/images/card2-patternn.png);
-        background-color: #272930;
-        text-align: center;
-        padding: 8%;
-    }
-    .white-design {
-        color: white;
-        font-size: 1.5em;
-    }
-    .see-detail {
-        color: white;
-        font-size: 1.4em;
-        margin-top: 30px;
-        text-decoration-line: underline;
-        display: block;
-    }
-    .join-cc {
-        display: none;
-    }
-    .join-dd {
-        display: none;
-    }
-    .see-detail:hover {
-        color: #ec5242;
-        cursor: pointer;
-    }
-    .line-main-pg {
-        width: 5em;
-        height: 2px;
-        background-color: #ec5242;
-        margin-top: 1em;
-        margin-bottom: 40px;
-    }
-    .card-forum {
-        display: grid;
-        display: flex;
-        gap: 10px;
-    }
-    .player-container {
-        display: grid;
-        grid-template-columns: repeat(2, 600px);
-        grid-gap: 20px;
-        justify-items: center;
-        width: calc(100% - 40px);
-        margin: 0 auto;
-        max-width: 100%;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
-    .player-list {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 10px;
-    }
-    .player-img {
-        width: 130px;
-        margin-left: 170px;
-        box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
-    }
-    .Featured-artist {
-        font-size: 2em;
-        text-align: center;
-    }
-    .artist-bottom-line {
-        width: 100px;
-        margin: 10px auto 40px;
-        background-color: #ec5242;
-    }
+  .icon-nav {
+    display: flex;
+    align-items: center;
+    background-color: #272a31;
+    height: 3rem;
+  }
+
+  .ham-burger {
+    display: none;
+  }
+
+  #menu-two {
+    display: none;
+  }
+
+  .for-icon-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 58em;
+  }
+
+  .for-icon-nav li {
+    margin-right: 20px;
+  }
+
+  .for-icon-nav li a {
+    text-decoration: none;
+    color: #fffefe;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .music-logo {
+    width: 120px;
+    margin-left: 100px;
+    display: block;
+  }
+
+  .container-two {
+    background-image: url(../images/main_big.png);
+  }
+
+  .lower-nav {
+    display: flex;
+    align-items: center;
+    background-color: #e6e8eb;
+    height: 4rem;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .for-desk-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 17em;
+  }
+
+  .for-desk-nav li {
+    margin-right: 25px;
+    padding: 25px;
+  }
+
+  .for-desk-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .for-border {
+    padding: 10px;
+    border: 4px solid #ec5242;
+    color: #ec5242;
+    font-weight: bold;
+  }
+
+  .first-content {
+    color: #ec5242;
+    font-size: 2rem;
+    margin-top: 2.5em;
+    margin-left: 100px;
+    font-weight: bolder;
+  }
+
+  .cover {
+    margin-left: 20px;
+  }
+
+  .content h1 {
+    color: #ec5242;
+    font-size: 4.5em;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+  }
+
+  .lorem {
+    width: 700px;
+    margin-left: 25%;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .lorem-border {
+    margin-top: 1.5em;
+    border: 3px solid rgb(236, 236, 236);
+    font-size: 1.2em;
+    padding: 20px;
+    width: 700px;
+    margin-left: 120px;
+  }
+
+  .concert-time {
+    margin-top: 1.5em;
+    margin-left: 120px;
+    font-size: 3rem;
+    color: #272a31;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .concert-time-sec {
+    font-size: 1.5rem;
+    color: #272a31;
+    margin-bottom: 4em;
+    margin-left: 120px;
+  }
+
+  .to-move {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .to-center {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .pattern-bg {
+    background-image: url(/images/card2-patternn.png);
+    background-color: #272930;
+    text-align: center;
+    padding: 8%;
+  }
+
+  .white-design {
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .see-detail {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 30px;
+    text-decoration-line: underline;
+    display: block;
+  }
+
+  .join-cc {
+    display: none;
+  }
+
+  .join-dd {
+    display: none;
+  }
+
+  .see-detail:hover {
+    color: #ec5242;
+    cursor: pointer;
+  }
+
+  .line-main-pg {
+    width: 5em;
+    height: 2px;
+    background-color: #ec5242;
+    margin-top: 1em;
+    margin-bottom: 40px;
+  }
+
+  .card-forum {
+    display: grid;
+    display: flex;
+    gap: 10px;
+  }
+
+  .player-container {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-gap: 20px;
+    justify-items: center;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .player-list {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .player-img {
+    width: 130px;
+    margin-left: 170px;
+    box-shadow: -10px -10px 5px -3px rgba(0, 0, 0, 0.28);
+  }
+
+  .Featured-artist {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .artist-bottom-line {
+    width: 100px;
+    margin: 10px auto 40px;
+    background-color: #ec5242;
+  }
 }
 
 .player-header {
-    color: #1d1d1d;
-    font-size: 1rem;
-    font-weight: bold;
+  color: #1d1d1d;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .player-profession {
-    color: #ec5242;
-    font-weight: bolder;
-    font-size: 15px;
-    font-style: italic;
-    display: flex;
-    margin-left: 10px;
+  color: #ec5242;
+  font-weight: bolder;
+  font-size: 15px;
+  font-style: italic;
+  display: flex;
+  margin-left: 10px;
 }
 
 .for-partner {
-    background-color: #272930;
-    padding: 40px;
+  background-color: #272930;
+  padding: 40px;
 }
 
 .for-partner-sec {
-    background-color: #272930;
-    padding: 40px;
+  background-color: #272930;
+  padding: 40px;
 }
 
 .partner {
-    width: 100%;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .line-partner {
-    width: 60px;
-    height: 2px;
-    background-color: #ec5242;
-    margin-left: 37.5em;
-    margin-top: 1em;
+  width: 60px;
+  height: 2px;
+  background-color: #ec5242;
+  margin-left: 37.5em;
+  margin-top: 1em;
 }
 
 .for-width {
-    max-width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-    box-sizing: border-box;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .burn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .color-burn img {
-    max-width: 100%;
-    height: 100px;
+  max-width: 100%;
+  height: 100px;
 }
 
 .color-burn {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 .music {
-    margin-left: 150px;
-    width: 250px;
+  margin-left: 150px;
+  width: 250px;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .dolphin {
-    background-image: url(../images/main_big.png);
+  background-image: url(../images/main_big.png);
 }
 
 .blue h2 {
-    color: #ec5242;
-    text-align: center;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ec5242;
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .question {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: black;
-    font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: black;
+  font-weight: bold;
 }
 
 .email {
-    color: black;
-    font-size: 15px;
+  color: black;
+  font-size: 15px;
 }
 
 .email:hover {
-    color: rgb(60, 126, 101);
+  color: rgb(60, 126, 101);
 }
 
 .white {
-    background-color: white;
+  background-color: white;
 }
 
 .event-concert {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .ipsum {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 .align {
-    margin: 25px 38%;
+  margin: 25px 38%;
 }
 
 .concert-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1% 11.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 11.5%;
 }
 
 .for-2022 {
-    display: flex;
-    margin-bottom: 30px;
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .for-2022 li {
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .final {
-    background-color: #272a31;
+  background-color: #272a31;
 }
 
 .reserve {
-    font-size: 1.1em;
-    position: absolute;
-    left: 25em;
-    top: 100em;
+  font-size: 1.1em;
+  position: absolute;
+  left: 25em;
+  top: 100em;
 }
 
 .for-footer {
-    display: flex;
-    padding-left: 100px;
+  display: flex;
+  padding-left: 100px;
 }
 
 .for-footer li {
-    display: flex;
+  display: flex;
 }
 
 .forblock {
-    display: block;
-}
-
-.concert-photo {
-    display: block;
+  display: block;
 }
 
 .photo {
-    display: none;
+  display: none;
 }
 
 .move-display {
-    padding-top: 60px;
-    font-weight: bold;
+  padding-top: 60px;
+  font-weight: bold;
 }
 
 .for-footer-sec {
-    display: flex;
-    background-color: #272930;
-    padding-left: 40px;
+  display: flex;
+  background-color: #272930;
+  padding-left: 40px;
 }
 
 .for-footer-sec li {
-    display: flex;
+  display: flex;
 }
 
 .final-card-sec {
-    display: none;
+  display: none;
 }
 
 .footer-music {
-    width: 150px;
+  width: 150px;
 }
 
 .for-color {
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 769px) {
-    .final-card {
-        display: block;
-    }
-    .for-partner {
-        display: block;
-    }
-    .card-sec {
-        display: none;
-    }
-    .final-card-sec {
-        display: block;
-    }
-    .for-partner-sec {
-        display: none;
-        /* Hide the section on desktop-sized screens */
-    }
-    .photo-sec {
-        display: none;
-        /* Hide the section on desktop-sized screens */
-    }
+  .final-card {
+    display: block;
+  }
+
+  .for-partner {
+    display: block;
+  }
+
+  .card-sec {
+    display: none;
+  }
+
+  .final-card-sec {
+    display: block;
+  }
+
+  .for-partner-sec {
+    display: none;
+
+    /* Hide the section on desktop-sized screens */
+  }
+
+  .photo-sec {
+    display: none;
+
+    /* Hide the section on desktop-sized screens */
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .concert-photo {
-        display: none;
-        /* Hide the section on mobile-sized screens */
-    }
+  .concert-photo {
+    display: none;
+
+    /* Hide the section on mobile-sized screens */
+  }
 }
