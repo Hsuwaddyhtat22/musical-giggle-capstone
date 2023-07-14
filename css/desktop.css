@@ -209,7 +209,7 @@
 
   .player-container {
     display: grid;
-    grid-template-columns: repeat(2, 600px);
+    grid-template-columns: repeat(2, 550px);
     grid-gap: 20px;
     justify-items: center;
     width: calc(100% - 40px);
